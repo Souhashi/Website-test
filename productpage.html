@@ -1,0 +1,291 @@
+<!DOCTYPE html lang = en>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script type='text/javascript' src='index.js'></script>
+        <script type='text/javascript' src='loadproduct.js'></script>
+        <title>Elixxirio</title>
+        <style>
+            body, html {
+                    height:100%;
+                    margin: 0px;
+                    
+                    
+                   
+                }
+                body{padding-top:50px;
+                    }
+                
+                .container {
+                    overflow:auto;
+                    position:relative;
+                    height:100%;
+                    width:100%;
+                    padding:0px;
+                   
+                }
+               
+                .column1{
+                    
+                    padding:20px 0;
+                    width:40%;
+                    float:left;
+                    text-align:center;
+                    color:#fff;
+                }
+
+                .column2{
+                    padding:20px 0;
+                    text-align:center;
+                    width:30%;
+                    float:left;
+                    margin:0 auto;
+                    color:#fff;
+                }
+
+                .box{
+                  width:100%;
+                   text-align: center;
+                    height: 40px;
+                    display: table;
+                    background-color: #131d13;
+                    color:#fff;
+                    margin:20px 0;
+                }
+                .box h3{
+                    display:table-cell;
+                    vertical-align:middle;
+                }
+
+                .column{
+                text-align: center;
+                    width:30%;
+                   float:left;
+                   padding:20px 0;
+                   color:#fff;
+                   
+                }
+                .column3{
+                    text-align: center;
+                    width:10%;
+                   float:left;
+                   padding:20px 0;
+                   color:#fff;
+                }
+
+                .bgimg{
+                    background-image: url("bamboo-whisk-bowls-color-461428.jpg");
+                    height:100%;
+                    background-position:center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                
+                .column1 p {
+                   
+                    text-align: justify;
+                }
+
+               .ingbox{
+                   background-color:red;
+                   width: 40px;
+                    height:40px;
+                    transition: transform .2s;
+                   }
+
+                   .ingbox:hover{
+                    -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+                   }
+                .ingcontainer{
+                    width:220px;
+                   margin:0 auto;
+                   
+                }
+                .overlay{
+                    position: absolute;
+                    overflow:auto;
+                    background-color: #131d138f;
+                    height:100%;
+                    z-index:1;
+                    width:100%;
+                }
+                .row{
+                    margin:0 auto;
+                    overflow:auto;
+                }
+                .erow{
+                    width:100%;
+                    height:200px;
+                }
+                .properties{
+                    margin: 0 auto;
+                    text-align: center;
+                    
+                    width: 300px;
+                    
+                   
+                }
+                .grow {
+                    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gcolumn{
+    flex: 55px;
+  max-width: 55px;
+  padding:5px 5px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+                .content-container{
+                    position:absolute;
+                    overflow:auto;
+                    height:100%;
+                    z-index: 4;
+                    width :100%;
+                }
+                
+                .footer{
+                   
+                    
+                    bottom:0;
+                    width:100%;
+                    height:70px;
+                    background-color:black;
+                    min-height: 1px;
+                    display:flex;
+                }
+               
+                .errmessage{
+        display:none;
+        text-align:center;
+        color:#fff;
+            }
+            @media screen and (max-width: 1030px) {
+                .column{
+                    width:100%;
+                    padding:0;
+                    
+                }
+                .column1{
+                    width:100%;
+                    padding:20px;
+                    
+                }
+                .column2{
+                    width:100%;
+                }
+                .column3{
+                    width:100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav class ="navbar navbar-inverse navbar-fixed-top">
+            <div class ="container-fluid">
+                <div class = "navbar-header">
+                    <button type="button" class = "navbar-toggle" data-toggle="collapse"
+                    data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>   
+                    </button>
+                    <a class="navbar-brand" href="#eintro">Elixxirio</a>
+                </div>
+                <div class = "collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.php#eintro">About</a></li>
+                        <li><a href="index.php#products">Our Products</a></li>
+                        <li><a href="index.php#methods">Our Methods</a></li>
+                       
+                        <li><a href="index.php#contactsection">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class= "errmessage">
+           <p id = "p1"></p>
+           
+         </div>
+        </nav> 
+        
+        <div class="container">
+                <div class="content-container">
+                        <div class="erow">
+                               
+                        </div>
+                        <div class="row">
+                          
+                            <div class="column">
+                                   
+                                <div id="pname">
+                                        
+                                <img src="Rosehipl.png">
+                                <h3>Product</h3>
+                            </div>
+                                <div class="properties" id = "properties">
+                                <div class = "box">
+                                    <h3>Bones</h3>
+                                    
+                                </div>
+                                <div class = "box">
+                                        <h3>Eyes</h3>
+                                        
+                                    </div>
+                                    <div class = "box">
+                                            <h3>Joints</h3>
+                                            
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="column1" id="details">
+                               
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                                            Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, 
+                                            risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                                            Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, 
+                                            risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                                                    Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, 
+                                                    risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                                                    Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, 
+                                                    risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                                                            Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, 
+                                                            risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
+                                                            Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, 
+                                                            risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+                                                
+                            </div>
+                            <div class="column2">
+                                <div class="ingcontainer">
+                                    <h3 >Συστατικά</h3>
+                                    <h4 id = "ingcaption">Ingredient</h4>
+                                <div class="grow" id="gr">
+                                <div class="gcolumn"><div class="ingbox"><img src="cinnamon40.png" alt="Cinnamon" id="im1" onclick="getName(1)"></div></div>
+                                
+                                </div>
+                            </div>
+                                </div>
+                        </div>
+                    </div>
+            <div class="overlay"></div>
+            <div class ="bgimg"></div>
+            
+        </div>
+       
+                
+           
+                
+    </body>
+</html>

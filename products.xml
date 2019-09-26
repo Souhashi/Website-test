@@ -1,0 +1,596 @@
+<products>
+<product>
+<id>1</id>
+<name>Relax</name>
+<type>Βάμμα</type>
+<ingredient name="Βαλεριάνα">Βαλεριάνα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λεβάντα">Λεβάντα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Χαμομήλι">Χαμομήλι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Μελισσόχορτο">Μελισσόχορτο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Αγριο_Τριανταφυλλο">Αγριο Τριανταφυλλο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Γλυκάνισος">Γλυκάνισος<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben1">'Αγχος</benefit>
+<benefit name = "ben2">Πονοκέφαλοι</benefit>
+<benefit name = "ben3">Ημικρανίες</benefit>
+<benefit name = "ben4">Αυπνία</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>2</id>
+<name>Duet</name>
+<type>Βάμμα</type>
+<ingredient name="Θυμάρι">Θυμάρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ζαμπούκος">Ζαμπούκος<ingimg>lavender40.png</ingimg></ingredient>
+<benefit name = "ben5">Κρυολόγημα</benefit>
+<benefit name = "ben6">Ιώσεις</benefit>
+<benefit name = "ben7">Πονόλαιμος</benefit>
+<benefit name = "ben8">Βήχας</benefit>
+<benefit name = "ben9">Βρογχικά Προβλήματα</benefit>
+<simglink>compound150.png</simglink>
+<limglink>cinnamon.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>3</id>
+<name>Pink</name>
+<type>Βάμμα</type>
+<ingredient name="Χαμομήλι">Χαμομήλι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Μελισσόχορτο">Μελισσόχορτο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Αγριο_Τριανταφυλλο">Αγριο Τριανταφυλλο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λυγαριά">Λυγαριά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Φασκόμηλο">Φασκόμηλο<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben10">Γυναικείος κύκλος</benefit>
+<benefit name = "ben11">Εμμηνόπαυση</benefit>
+<benefit name = "ben12">Ακμή</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>4</id>
+<name>Refresh</name>
+<type>Βάμμα</type>
+<ingredient name="Δεντρολίβανο">Δεντρολίβανο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Βασιλικός">Βασιλικός<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Σιδηρίτης">Σιδηρίτης<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben13">Δυσκολίες μνήμης</benefit>
+<benefit name = "ben14">Άνοια</benefit>
+<benefit name = "ben15">Αρτηριοσκλήρωση</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>5</id>
+<name>Fit</name>
+<type>Βάμμα</type>
+<ingredient name="Χαμομήλι">Χαμομήλι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λουίζα">Λουίζα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Τσουκνίδα">Τσουκνίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ιβίσκος">Ιβίσκος<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Πικραλίδα">Πικραλίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Πράσινο_τσάι">Πράσινο τσάι<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben16">Διαιτητικό</benefit>
+<benefit name = "ben17">Αποτοξίνωση</benefit>
+<benefit name = "ben18">Λιθόσπαση</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>6</id>
+<name>Dias</name>
+<type>Βάμμα</type>
+<ingredient name="Χαμομήλι">Χαμομήλι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Δεντρολίβανο">Δεντρολίβανο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Φασκόμηλο">Φασκόμηλο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Βασιλικός">Βασιλικός<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Αμυγδαλιά">Αμυγδαλιά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κανέλα">Κανέλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben19">Περιορισμός ζαχάρου</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>7</id>
+<name>Restart</name>
+<type>Βάμμα</type>
+<ingredient name="Ρίγανη">Ρίγανη<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Δεντρολίβανο">Δεντρολίβανο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Δάφνη">Δάφνη<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben20">Υγειής τριχοφυία</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>8</id>
+<name>Καλεντούλα και Αλόη</name>
+<type>Ανθόνερο</type>
+<ingredient name="Καλεντούλα">Καλεντούλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Αλόη">Αλόη<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben21">Αιμορροίδες</benefit>
+<benefit name = "ben22">Δερματικά</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>9</id>
+<name>Liberos</name>
+<type>Βάμμα</type>
+<ingredient name="Αμυγδαλιά">Αμυγδαλιά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Τσουκνίδα">Τσουκνίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Μάραθος">Μάραθος<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κολοκυθιά">Κολοκυθιά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λινάρι">Λινάρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ρίγανη">Ρίγανη<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ιππουρίδα">Ιππουρίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Saw_Palmetto">Saw Palmetto<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben23">Διουριτικό</benefit>
+<benefit name = "ben24">Προστάτης</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>10</id>
+<name>Drainer</name>
+<type>Βάμμα</type>
+<ingredient name="Θυμάρι">Θυμάρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κανέλα">Κανέλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Μάραθος">Μάραθος<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Δυόσμος">Δυόσμος<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λινάρι">Λινάρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Αγρέλι">Αγρέλι<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben25">Γαστρεντερικές ενοχλήσεις</benefit>
+<benefit name = "ben26">Φουσκώματα</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>11</id>
+<name>Plethora</name>
+<type>Βάμμα</type>
+<ingredient name="Βασιλικός">Βασιλικός<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κανέλα">Κανέλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ραδίκι">Ραδίκι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ξυσταρκά">Ξυσταρκά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ελιά">Ελιά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ginger">Ginger<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben27">Υπέρταση</benefit>
+<benefit name = "ben28">Διαβήτης</benefit>
+<benefit name = "ben29">Χοληστερόλη</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>12</id>
+<name>Βαλεριάνα</name>
+<type>Βάμμα</type>
+<ingredient name="Βαλεριάνα">Βαλεριάνα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben1">'Αγχος</benefit>
+<benefit name = "ben2">Πονοκέφαλοι</benefit>
+<benefit name = "ben3">Ημικρανίες</benefit>
+<benefit name = "ben4">Αυπνία</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>13</id>
+<name>Πικρό πεπόνι</name>
+<type>Βάμμα</type>
+<ingredient name="Πικρο_πεπονι">Πικρό πεπόνι<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben19">Περιορισμός ζαχάρου</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>14</id>
+<name>Ξυσταρκά</name>
+<type>Βάμμα</type>
+<ingredient name="Ξυσταρκά">Ξυσταρκά<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben29">Χοληστερόλη</benefit>
+<benefit name = "ben30">Τριγλυκερίδια</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>15</id>
+<name>Τσουκνίδα</name>
+<type>Βάμμα</type>
+<ingredient name="Τσουκνίδα">Τσουκνίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben17">Αποτοξίνωση</benefit>
+<benefit name = "ben31">Αντιαλλεργικό</benefit>
+<benefit name = "ben32">Πόνος αρθρώσεων</benefit>
+<benefit name = "ben33">Απορροφηση σιδήρου</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>16</id>
+<name>Κουρκουμάς</name>
+<type>Βάμμα</type>
+<ingredient name="Κουρκουμάς">Κουρκουμάς<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben34">Αντιφλεγμονώδες</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>17</id>
+<name>Τριβόλι</name>
+<type>Βάμμα</type>
+<ingredient name="Τριβόλι">Τριβόλι<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben35">Μικροκυκλοφορία</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>18</id>
+<name>Μοσφιλιά</name>
+<type>Βάμμα</type>
+<ingredient name="Μοσφιλιά">Μοσφιλιά<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben36">Κυκλοφορικό</benefit>
+<benefit name = "ben37">Πίεση</benefit>
+<benefit name = "ben38">Αρρυθμίες</benefit>
+<benefit name = "ben39">Ταχυκαρδίες</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>19</id>
+<name>Λιθόσπαστο</name>
+<type>Βάμμα</type>
+<ingredient name="Λιθόσπαστο">Λιθόσπαστο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Μαιντανός">Μαιντανός<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben18">Λιθόσπαση</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>20</id>
+<name>Γαιδουράγκαθο</name>
+<type>Βάμμα</type>
+<ingredient name="Γαιδουράγκαθο">Γαιδουράγκαθο<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben17">Αποτοξίνωση</benefit>
+<benefit name = "ben22">Δερματικές παθήσεις</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>21</id>
+<name>Αβοκάντο</name>
+<type>Βάμμα</type>
+<ingredient name="Αβοκάντο">Αβοκάντο<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben17">Αποτοξίνωση</benefit>
+<benefit name = "ben22">Δερματικές παθήσεις</benefit>
+<benefit name = "ben20">Υγειής τριχοφυία</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>22</id>
+<name>Roides</name>
+<type>Βάμμα</type>
+<ingredient name="Τσουκνίδα">Τσουκνίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Καλεντούλα">Καλεντούλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Αχίλλεια">Αχίλλεια<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben21">Αιμορροίδες</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>23</id>
+<name>Βιθανία</name>
+<type>Βάμμα</type>
+<ingredient name="Βιθανία">Βιθανία<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben40">Ολιστική ευεξία</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>24</id>
+<name>Εχινάκεια</name>
+<type>Βάμμα</type>
+<ingredient name="Εχινάκεια">Εχινάκεια<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben41">Ενίσχυση ανοσοποιητικού</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>25</id>
+<name>Gingko Biloba</name>
+<type>Βάμμα</type>
+<ingredient name="Gingko_Biloba">Gingko Biloba<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben35">Μικροκυκλοφορία</benefit>
+<benefit name = "ben13">Δυσκολίες μνήμης</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>26</id>
+<name>Αχίλλεια</name>
+<type>Βάμμα</type>
+<ingredient name="Αχίλλεια">Αχίλλεια<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben21">Αιμορροίδες</benefit>
+<benefit name = "ben22">Ουρολοιμώξεις</benefit>
+<benefit name = "ben25">Γαστρεντερικές ενοχλήσεις</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>27</id>
+<name>Κανναβούρι</name>
+<type>Βάμμα</type>
+<ingredient name="Κανναβούρι">Κανναβούρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben16">Διαιτητικό</benefit>
+<benefit name = "ben42">Μυικό σύστημα</benefit>
+<benefit name = "ben56">Ενέργεια</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>28</id>
+<name>Μελισσόχορτο</name>
+<type>Βάμμα</type>
+<ingredient name="Μελισσόχορτο">Μελισσόχορτο<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben26">Φουσκώματα</benefit>
+<benefit name = "ben43">Κράμπες</benefit>
+<benefit name = "ben44">Χαλάρωση</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>29</id>
+<name>Ευφρασία</name>
+<type>Βάμμα</type>
+<ingredient name="Ευφρασία">Ευφρασία<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben45">Ιγμορίτιδα</benefit>
+<benefit name = "ben46">Αλλεργική ρινίτιδα</benefit>
+<benefit name = "ben47">Μάτια</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>30</id>
+<name>Freezy(Syrup)</name>
+<type>Βάμμα</type>
+<ingredient name="Θυμάρι">Θυμάρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ζαμπούκος">Ζαμπούκος<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ευκάλυπτος">Ευκάλυπτος<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Μολόχα">Μολόχα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Συκόφυλλο">Συκόφυλλο<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben5">Κρυολόγημα</benefit>
+<benefit name = "ben6">Ιώσεις</benefit>
+<benefit name = "ben7">Πονόλαιμος</benefit>
+<benefit name = "ben8">Βήχας</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>31</id>
+<name>Brazil</name>
+<type>Βάμμα</type>
+<ingredient name="Brazil_nuts">Brazil nuts<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben48">Συμπληρωματικό</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>32</id>
+<name>Smilax</name>
+<type>Βάμμα</type>
+<ingredient name="Smilax">Smilax<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben22">Δερματικές παθήσεις</benefit>
+<benefit name = "ben17">Αποτοξίνωση</benefit>
+<benefit name = "ben49">Ρευματοειδής αρθρίτιδα</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>33</id>
+<name>Κυνόδορο</name>
+<type>Βάμμα</type>
+<ingredient name="Κυνόδορο">Κυνόδορο<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben22">Δερματικές παθήσεις</benefit>
+<benefit name = "ben17">Αποτοξίνωση</benefit>
+<benefit name = "ben34">Αντιφλεγμονώδες</benefit>
+<benefit name = "ben12">Ακμή</benefit>
+<benefit name = "ben50">Ραγάδες</benefit>
+<benefit name = "ben51">Κυτταρίτιδα</benefit>
+<benefit name = "ben52">Αρθρίτιδα</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>34</id>
+<name>Ιππουρίδα</name>
+<type>Βάμμα</type>
+<ingredient name="Ιππουρίδα">Ιππουρίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben23">Διουριτικό</benefit>
+<benefit name = "ben24">Προστάτης</benefit>
+<benefit name = "ben53">Απορροφηση ασβεστίου</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>35</id>
+<name>'Αγριο ραδίκι</name>
+<type>Βάμμα</type>
+<ingredient name="Αγριο_ραδικι">'Αγριο ραδίκι<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben23">Διουριτικό</benefit>
+<benefit name = "ben34">Αντιφλεγμονώδες</benefit>
+<benefit name = "ben17">Αποτοξίνωση</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>36</id>
+<name>Γανόδερμα</name>
+<type>Βάμμα</type>
+<ingredient name="Γανόδερμα">Γανόδερμα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben40">Ολιστική ευεξία</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>37</id>
+<name>Υπέρικος</name>
+<type>Βάμμα</type>
+<ingredient name="Υπέρικος">Υπέρικος<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben54">Αντικαταθλιπτικό</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>38</id>
+<name>Κρόκος Κοζάνης</name>
+<type>Βάμμα</type>
+<ingredient name="Κρόκος_Κοζάνης">Κρόκος Κοζάνης<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben54">Αντικαταθλιπτικό</benefit>
+<benefit name = "ben47">Μάτια</benefit>
+<benefit name = "ben44">Χαλάρωση</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>39</id>
+<name>Tarantella</name>
+<type>Βάμμα</type>
+<ingredient name="Καλεντούλα">Καλεντούλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λεβάντα">Λεβάντα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ευκάλυπτος">Ευκάλυπτος<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Σιτρονέλα">Σιτρονέλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben22">Δερματικές παθήσεις</benefit>
+<benefit name = "ben55">Αντικουνουπικό</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>40</id>
+<name>Trinity</name>
+<type>Βάμμα</type>
+<ingredient name="Ελιά">Ελιά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ξυσταρκά">Ξυσταρκά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λαψάνα">Λαψάνα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben56">Ενέργεια</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>41</id>
+<name>Ανθόνερο Θυμαριού</name>
+<type>Βάμμα</type>
+<ingredient name="Θυμάρι">Θυμάρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben57">Γαστροισοφαγική Παλινδρόμηση</benefit>
+<benefit name = "ben25">Γαστρεντερικές ενοχλήσεις</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>42</id>
+<name>Αλόη</name>
+<type>Βάμμα</type>
+<ingredient name="Αλόη">Αλόη<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben58">Γενική ευεργετικότητα</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>43</id>
+<name>Cayenne</name>
+<type>Βάμμα</type>
+<ingredient name="Cayenne">Cayenne<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben16">Διαιτητικό</benefit>
+<benefit name = "ben34">Αντιφλεγμονώδες</benefit>
+<benefit name = "ben3">Ημικρανίες</benefit>
+<benefit name = "ben59">Παυσίπονο</benefit>
+<simglink>rosehip.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>44</id>
+<name>MarmeLove</name>
+<type>Μαρμελάδα</type>
+<ingredient name="Τριβόλι">Τριβόλι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Gingko_Biloba">Gingko Biloba<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κανέλα">Κανέλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κρόκος_Κοζάνης">Κρόκος Κοζάνης<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Επιμήδιο">Επιμήδιο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ginseng">Ginseng<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben16">Διαιτητικό</benefit>
+<benefit name = "ben34">Αντιφλεγμονώδες</benefit>
+<benefit name = "ben3">Ημικρανίες</benefit>
+<benefit name = "ben59">Παυσίπονο</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+<product>
+<id>45</id>
+<name>Panacea</name>
+<type>Βαμμα</type>
+<ingredient name="Γαιδουράγκαθο">Γαιδουράγκαθο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Cayenne">Cayenne<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Γανόδερμα">Γανόδερμα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κρόκος_Κοζάνης">Κρόκος Κοζάνης<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Μαιντανός">Μαιντανός<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ελιά">Ελιά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ginger">Ginger<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κυνόδορο">Κυνόδορο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Λινάρι">Λινάρι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Τσουκνίδα">Τσουκνίδα<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Φασκόμηλο">Φασκόμηλο<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Αλόη">Αλόη<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ρίγανη">Ρίγανη<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Πικρο_πεπονι">Πικρό πεπόνι<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Smilax">Smilax<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Ξυσταρκά">Ξυσταρκά<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Βιθανία">Βιθανία<ingimg>cinnamon40.png</ingimg></ingredient>
+<ingredient name="Κανέλα">Κανέλα<ingimg>cinnamon40.png</ingimg></ingredient>
+<benefit name = "ben16">Διαιτητικό</benefit>
+<benefit name = "ben34">Αντιφλεγμονώδες</benefit>
+<benefit name = "ben3">Ημικρανίες</benefit>
+<benefit name = "ben59">Παυσίπονο</benefit>
+<simglink>compound150.png</simglink>
+<limglink>Rosehipl.png</limglink>
+<details>Η παράγραφος σας εδώ</details>
+</product>
+</products>

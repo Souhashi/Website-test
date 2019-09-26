@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/fbecc64c67.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script type='text/javascript' src='index.js'></script>
+        <script type='text/javascript' src='loadproducts.js'></script>
+        <title>Elixxirio</title>
+        <style>
+             body, html {
+                height:100%;
+                    margin: 0;
+                    
+                   
+                }
+                body{padding-top:50px;}
+                
+                .container {
+                    overflow:hidden;
+                    position:relative;
+                    height:100%;
+                    width:100%;
+                    padding:0;
+                    
+                }
+                .erow{
+                    width:100%;
+                    height:150px;
+                }
+               
+ .errmessage{
+        display:none;
+        text-align:center;
+        color:#fff;
+    }
+    .overlay{
+                    position: absolute;
+                    overflow: auto;
+                    background-color: #131d138f;
+                    height:100%;
+                    z-index:1;
+                    width:100%;
+                }
+                .row{
+                    margin:0 auto;
+                    overflow: auto;
+                }
+                .bgimg{
+                    background-image: url("bamboo-whisk-bowls-color-461428.jpg");
+                    height:100%;
+                    background-position:center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                    .content-container{
+                    position:absolute;
+                    overflow:auto;
+                    height:100%;
+                    z-index: 4;
+                    width :100%;
+                }
+                .scrollable{ height:500px;overflow-y:auto;}
+                .footer{
+                   
+                    min-height: 100%;
+                    bottom:0;
+                    width:100%;
+                    height:70px;
+                    background-color:black;
+                    min-height: 1px;
+                    display:flex;
+                }
+               
+                .product-area ul{
+                    color:#fff;
+                    text-align: left;
+                    padding: 50px;
+                }
+                .column{
+                    
+                    height:100%;
+                    width:20%;
+                    float:left;
+                    padding:5px;
+                }
+               
+                .column1{
+                   
+                   height:100%;
+                    width:60%;
+                    float:left;
+                    padding:5px;
+                }
+                .pagination{
+                    text-align: center;
+                }
+                .pagination a {
+                    color: white;
+                    float: left;
+                    padding: 8px 16px;
+                    text-decoration: none;
+                    transition: background-color .3s;
+                }
+                .ocontainer {
+  position: relative;
+  width: 100%;
+  max-width: 150px;
+}
+
+/* Make the image to responsive */
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.ooverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #131d13;
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+.ocontainer:hover .ooverlay {
+  opacity: 0.7;
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+
+/* When you move the mouse over the icon, change color */
+.fa-search:hover {
+  color: #eee;
+  text-decoration: none;
+}
+                .containerl {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containerl input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.containerl:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerl input:checked ~ .checkmark {
+  background-color: #446944;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerl input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerl .checkmark:after {
+  left: 8px;
+  top: 4px;
+  width: 10px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Style the active/current link */
+                .pagination a.active {
+                    background-color: #446944;
+                    color: white;
+                }
+
+/* Add a grey background color on mouse-over */
+                .pagination a:hover:not(.active) {background-color: #ddd;}
+                .pcard{
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    max-width: 150px;
+                    margin: auto;
+                    text-align: center;
+                    font-family: arial; 
+                    background-color: #131d13;
+                    color: #fff;
+                }
+                
+.pcard p  {
+    padding:5px 0;
+}
+
+
+.card button:hover {
+    background-color:gray;
+}
+
+
+                .grow {
+  display: flex;
+  flex-wrap: wrap;
+  padding:4px 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gcolumn {
+  flex: 20%;
+  max-width: 20%;
+  padding:4px 0 4px;
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1040px) {
+  .gcolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .column{
+      width:100%;
+  }
+  .column1{
+      width:100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .gcolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+}
+        </style>
+        <script>
+          if(!!window.performance && window.performance.getEntriesByType('navigation')[0].type === "back_forward")
+{
+    console.log('Reloading');
+    window.location.reload();
+}
+        </script>
+    </head>
+    <body>
+            <nav class ="navbar navbar-inverse navbar-fixed-top">
+                    <div class ="container-fluid">
+                        <div class = "navbar-header">
+                            <button type="button" class = "navbar-toggle" data-toggle="collapse"
+                            data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>   
+                            </button>
+                            <a class="navbar-brand" href="#eintro">Elixxirio</a>
+                        </div>
+                        <div class = "collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.php#eintro">About</a></li>
+                                <li><a href="index.php#products">Our Products</a></li>
+                                <li><a href="index.php#methods">Our Methods</a></li>
+                               
+                                <li><a href="index.php#contactsection">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class= "errmessage">
+                   <p id = "p1"></p>
+                   
+                 </div>
+                </nav> 
+                <div class="container">
+                        <div class="content-container">
+                                <div class="erow">
+                                       
+                                </div>
+                                <div class="row">
+                                        <div class = "product-area">
+                                                <div class = "list column">
+                                                  <div class="scrollable">
+                                                    <ul style="list-style-type:none;" id ="inglist">
+                                                       
+                                                        <li><label class="containerl">Rosehip
+                                                            <input type="checkbox" id="Rosehip" onclick="getProducts(1)" >
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Rose
+                                                            <input type="checkbox" id="Κυνόδορο" onclick="getProducts(1)">
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Horsetail
+                                                            <input type="checkbox" id="Horsetail"onclick="getProducts(1)" >
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Thistle
+                                                            <input type="checkbox" id="Thistle" onclick="getProducts(1)">
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Thyme
+                                                            <input type="checkbox" id="Thyme" onclick="getProducts(1)">
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                          <li><label class="containerl">Rosehip
+                                                              <input type="checkbox" id="Rosehip" onclick="getProducts(1)" >
+                                                              <span class="checkmark"></span>
+                                                            </label></li>
+                                                          <li><label class="containerl">Rose
+                                                              <input type="checkbox" id="Rose" onclick="getProducts(1)">
+                                                              <span class="checkmark"></span>
+                                                            </label></li>
+                                                          <li><label class="containerl">Horsetail
+                                                              <input type="checkbox" id="Horsetail"onclick="getProducts(1)" >
+                                                              <span class="checkmark"></span>
+                                                            </label></li>
+                                                          <li><label class="containerl">Thistle
+                                                              <input type="checkbox" id="Thistle" onclick="getProducts(1)">
+                                                              <span class="checkmark"></span>
+                                                            </label></li>
+                                                          <li><label class="containerl">Thyme
+                                                              <input type="checkbox" id="Thyme" onclick="getProducts(1)">
+                                                              <span class="checkmark"></span>
+                                                            </label></li>
+                                                            <li><label class="containerl">Rosehip
+                                                                <input type="checkbox" id="Rosehip" onclick="getProducts(1)" >
+                                                                <span class="checkmark"></span>
+                                                              </label></li>
+                                                            <li><label class="containerl">Rose
+                                                                <input type="checkbox" id="Rose" onclick="getProducts(1)">
+                                                                <span class="checkmark"></span>
+                                                              </label></li>
+                                                            <li><label class="containerl">Horsetail
+                                                                <input type="checkbox" id="Horsetail"onclick="getProducts(1)" >
+                                                                <span class="checkmark"></span>
+                                                              </label></li>
+                                                            <li><label class="containerl">Thistle
+                                                                <input type="checkbox" id="Thistle" onclick="getProducts(1)">
+                                                                <span class="checkmark"></span>
+                                                              </label></li>
+                                                            <li><label class="containerl">Thyme
+                                                                <input type="checkbox" id="Thyme" onclick="getProducts(1)">
+                                                                <span class="checkmark"></span>
+                                                              </label></li>
+                                                              <li><label class="containerl">Rosehip
+                                                                  <input type="checkbox" id="Rosehip" onclick="getProducts(1)" >
+                                                                  <span class="checkmark"></span>
+                                                                </label></li>
+                                                              <li><label class="containerl">Rose
+                                                                  <input type="checkbox" id="Rose" onclick="getProducts(1)">
+                                                                  <span class="checkmark"></span>
+                                                                </label></li>
+                                                              <li><label class="containerl">Horsetail
+                                                                  <input type="checkbox" id="Horsetail"onclick="getProducts(1)" >
+                                                                  <span class="checkmark"></span>
+                                                                </label></li>
+                                                              <li><label class="containerl">Thistle
+                                                                  <input type="checkbox" id="Thistle" onclick="getProducts(1)">
+                                                                  <span class="checkmark"></span>
+                                                                </label></li>
+                                                              <li><label class="containerl">Thyme
+                                                                  <input type="checkbox" id="Thyme" onclick="getProducts(1)">
+                                                                  <span class="checkmark"></span>
+                                                                </label></li>
+                                                         <li><label class="containerl">Rosehip
+                                                            <input type="checkbox" id="Rosehip" onclick="getProducts(1)" >
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Rose
+                                                            <input type="checkbox" id="Rose" onclick="getProducts(1)">
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Horsetail
+                                                            <input type="checkbox" id="Horsetail"onclick="getProducts(1)" >
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Thistle
+                                                            <input type="checkbox" id="Thistle" onclick="getProducts(1)">
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                        <li><label class="containerl">Thyme
+                                                            <input type="checkbox" id="Thyme" onclick="getProducts(1)">
+                                                            <span class="checkmark"></span>
+                                                          </label></li>
+                                                                    
+                                                        
+                                                        
+                                                        
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                                <div class ="product-grid column1" >
+                                                    <div class="grow" id ="pa">
+                                                       
+                                
+                                                    </div>
+                                                    <div class="pagination" id = "pg">
+                                                            
+                                                          </div>
+                                                </div>
+                                                <div class = "column"></div>
+                                            </div>
+                                                        
+                   
+                </div>
+            </div>
+                <div class="overlay"></div>
+                <div class ="bgimg"></div>
+                
+            
+            <div class="footer">
+    
+            </div>
+                
+    </body>
+</html>
